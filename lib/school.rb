@@ -1,5 +1,5 @@
 class School 
-  def initialized
+  def initialize
     @name = name 
     @roster = {}
     @grade = grade
