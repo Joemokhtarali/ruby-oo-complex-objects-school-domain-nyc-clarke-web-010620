@@ -1,5 +1,5 @@
 class School 
-  def initialize(name)
+  def initialized
     @name = name 
     @roster = {}
     @grade = grade
@@ -12,12 +12,12 @@ class School
      hash = {}
   end 
   
-  def add_student(@name, @grade)
-    if hash[@grade] 
-      hash[@grade] << @name
+  def add_student(name, grade)
+    if hash[grade] 
+      hash[grade] << name
     else 
-      hash[@grade] = []
-      hash[@grade] << @name
+      hash[grade] = []
+      hash[grade] << name
     end 
     
   end
