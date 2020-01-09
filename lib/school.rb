@@ -14,7 +14,7 @@ class School
   
   def add_student(@name, @grade)
     if hash[@grade] 
-      hash[@grade] << name
+      hash[@grade] << @name
     else 
       hash[@grade] = []
       hash[@grade] << @name
