@@ -6,7 +6,7 @@ class School
   end 
   
   attr_accessor :name, :roster
-  attr_reader 
+  attr_reader :name
   
   def roster
      hash = {}
