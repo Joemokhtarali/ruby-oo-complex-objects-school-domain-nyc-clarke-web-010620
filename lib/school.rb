@@ -9,7 +9,7 @@ class School
   attr_reader 
   
   def roster
-     {}
+     hash = {}
   end 
   
   def add_student(name, grade)
