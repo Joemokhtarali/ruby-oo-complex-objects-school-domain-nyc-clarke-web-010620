@@ -29,7 +29,7 @@ class School
   
   def sort 
     # binding.pry
-    roster.map { |key, value| key => value.sort}
+    roster.map { |key, value| :key = value.sort }
      
   end 
   
