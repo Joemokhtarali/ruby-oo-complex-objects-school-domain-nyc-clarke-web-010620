@@ -5,7 +5,7 @@ class School
     @roster = {}
   end 
   
-  # attr_accessor :roster
+  attr_accessor :roster
   
   
   # def roster
