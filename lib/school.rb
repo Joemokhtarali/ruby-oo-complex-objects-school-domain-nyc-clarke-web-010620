@@ -28,16 +28,14 @@ class School
   end 
   
   def sort 
-    roster.map do |key, value| 
-      key = value.sort 
-    end 
+
     # binding.pry
-    # new_hash = {}
-    # roster.each do |key, value| 
-    #   new_hash[key] = value.sort 
-    # end 
+    new_hash = {}
+    roster.each do |key, value| 
+      new_hash[key] = value.sort 
+    end 
      
-    # return new_hash
+    return new_hash
   end 
   
   
