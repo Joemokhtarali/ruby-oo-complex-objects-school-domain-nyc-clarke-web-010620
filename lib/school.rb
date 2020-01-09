@@ -9,9 +9,7 @@ class School
   attr_accessor :roster, :name 
   
   
-  def roster
-     
-  end 
+
   
   def add_student(name, grade)
     if hash[grade] 
