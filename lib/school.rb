@@ -1,7 +1,7 @@
 class School 
   def initialized
     @name = name 
-    @roster = {}
+    @roster = 
     @grade = grade
   end 
   
