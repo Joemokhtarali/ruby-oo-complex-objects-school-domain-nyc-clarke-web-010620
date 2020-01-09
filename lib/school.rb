@@ -5,7 +5,7 @@ class School
     @grade = grade
   end 
   
-  attr_accessor :name, :roster
+  attr_accessor :roster
   attr_reader :name
   
   def roster
