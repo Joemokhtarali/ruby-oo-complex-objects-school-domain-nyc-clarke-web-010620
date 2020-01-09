@@ -3,22 +3,22 @@ class School
     @roster = {}
   end 
   
-  attr_accessor :roster
+  # attr_accessor :roster
   
   
-  def roster
+  # def roster
      
-  end 
+  # end 
   
-  def add_student(name, grade)
-    if hash[grade] 
-      hash[grade] << name
-    else 
-      hash[grade] = []
-      hash[grade] << name
-    end 
+  # def add_student(name, grade)
+  #   if hash[grade] 
+  #     hash[grade] << name
+  #   else 
+  #     hash[grade] = []
+  #     hash[grade] << name
+  #   end 
     
-  end
+  # end
   
   
 end  
