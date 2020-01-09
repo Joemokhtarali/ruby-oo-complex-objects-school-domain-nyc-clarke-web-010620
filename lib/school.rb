@@ -1,4 +1,6 @@
-class School 
+require "pry"
+class School
+
   
   
   def initialize(roster)
@@ -26,7 +28,8 @@ class School
   end 
   
   def sort 
-    roster.sort 
+    binding.pry
+     
   end 
   
   
