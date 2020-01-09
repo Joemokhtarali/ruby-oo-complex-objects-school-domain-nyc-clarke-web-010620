@@ -12,7 +12,7 @@ class School
      hash = {}
   end 
   
-  def add_student(name, grade)
+  def add_student(@name, @grade)
     if hash[grade] 
       hash[grade] << name
     else 
